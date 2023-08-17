@@ -37,7 +37,7 @@ public class BaseClass {
 
 
 		String TitleName = driver.getTitle();
-		System.out.println("Ttile is the " + TitleName);
+		System.out.println("Ttile is the" + TitleName);
 	}
 
 	@AfterClass
