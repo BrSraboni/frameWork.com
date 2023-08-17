@@ -37,12 +37,13 @@ public class BaseClass {
 
 
 		String TitleName = driver.getTitle();
-		System.out.println("Ttile is " + TitleName);
+		System.out.println("Ttile is the " + TitleName);
 	}
 
 	@AfterClass
 	public void TearDown() {
 		BrowserFactory.quitBrowser(driver);
+		
 	}
 
 }
